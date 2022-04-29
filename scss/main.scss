@@ -1,0 +1,30 @@
+
+
+
+
+@import "custom";
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+
+
+
+// IMPORT THE COMPONENTS
+
+@import "components/animations";
+@import "components/buttons";
+@import "components/mixins";
+@import "components/typography";
+
+// IMPORT THE SECTIONS
+
+@import "sections/navbar";
+@import "sections/intro-section";
+@import "sections/companies";
+@import "sections/services";
+@import "sections/testemonials";
+@import "sections/faq";
+@import "sections/portfolio";
+@import "sections/get-started";
+@import "sections/footer";
+
+
