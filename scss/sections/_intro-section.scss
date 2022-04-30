@@ -5,4 +5,5 @@ h1 {
 
 .intro__section {
     height: 80vh;
+    @include gradient;
 }
