@@ -5,9 +5,17 @@
 }
 
 @mixin textgradient {
-    
     background: linear-gradient(to right, rgba($primary, 0.9), rgba($secondary, 0.9));
     background: -webkit-linear-gradient(to right, rgba($primary, 0.9), rgba($secondary, 0.9));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+// ABSOLUTE CENTER
+
+@mixin absoluteCenter {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }

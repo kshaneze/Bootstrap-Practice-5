@@ -1,6 +1,9 @@
 @import "../components/mixins";
 
 .btn-rounded {
+    @include media-breakpoint-down(sm) {
+        display: none;
+    }
     display: flex;
     justify-content: flex-end;
     align-items: center;

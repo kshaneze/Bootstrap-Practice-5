@@ -1,9 +1,11 @@
 .section__testemonails {
     @include gradient;
     margin-top: 10rem;
+    
 
     text {
         padding-top: 5rem;
+        display: inline-block;
     }
 
     .carousel-div {
@@ -12,6 +14,10 @@
 
     .carousel-inner {
         height: 40rem;
+    }
+
+    .carousel-caption {
+        text-align: center;
     }
 
 
@@ -25,15 +31,16 @@
 
     .person {
         position: absolute;
-        left: 50%;
-        transform: translateX(-50%);
+        
+        
         z-index: 1000;
-        top: 50%;
+        top: 54%;
 
         img {
-            width: 5rem;
-            height: 5rem;
+            width: 6rem;
+            height: 6rem;
             border-radius: 50%;
+            border: 0.350rem solid $primary;
         }
     }
 }

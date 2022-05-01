@@ -1,9 +1,25 @@
-h1 {
-    font-weight: 900;
-    font-size: 4.5rem;
-}
 
 .intro__section {
-    height: 80vh;
+    height: 100%;
+    width: 100%;
+    padding: 10rem 0 0 0;
     @include gradient;
+}
+
+.intros {
+
+
+    .video-box {
+        position: relative;
+        a {
+            // @include absoluteCenter;
+            span {
+
+                i{
+                    font-size: 6rem;
+                    color: $secondary;
+                }
+            }
+        }
+    }
 }
