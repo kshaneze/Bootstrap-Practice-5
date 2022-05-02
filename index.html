@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/main.css">
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,400;1,700&family=Open+Sans&family=Poppins:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
-
+    <link rel="stylesheet" href="vendors/css/glightbox.min.css">
     <script src="https://kit.fontawesome.com/a57e18254a.js" crossorigin="anonymous"></script>
 
     <title>Document</title>
@@ -67,7 +67,7 @@
         <div class="row justify-content-center align-items-center text-white">
           <div class="col-lg-6">
             
-            <h1 class="display-2 display-2--intro">Hey!, I'm <br>Patrick</h1>
+            <h1 class="display-1 display-2--intro ">Hey!, I'm <br>Patrick</h1>
             <p class="display-2--description lh-base">this is a multi-purpose responsive layout created with bootstrap v5. (here your can place your description text)</p>
           
             <button class="rounded-pill btn-rounded" type="button">Get in Touch<span class="span-img">
@@ -76,69 +76,91 @@
           <div class="col-lg-6 intros text-end">
             <div class="video-box">
               <img class="img-fluid" src="img/intro-section-illustration.png" alt="">
-              <a href="#" class="position-absolute top-50 start-50 translate-middle">
+              <a href="#" class="glightbox position-absolute top-50 start-50 translate-middle">
                 <span>
                   <i class="fas fa-play-circle"></i>
                 </span>
+                <span class="border-animation border-animation--border-1"></span>
+                <span class="border-animation border-animation--border-2"></span>
               </a>
             </div>
           </div>
         </div>
       </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffffff" fill-opacity="1" d="M0,160L48,181.3C96,203,192,245,288,240C384,235,480,181,576,149.3C672,117,768,107,864,128C960,149,1056,203,1152,197.3C1248,192,1344,128,1392,96L1440,64L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
   </div>
 
     <!-- COMPANIES -->
     <section class="section__companies mt-5">
       <div class="container">
-        <div class="row">
+        <div class="row text-center">
           <div class="col">
-            <h5 class="text-center mt-5">Trusted by campanies like</h5>
+            <h5 class=" mt-5 fw-bold lead mb-3">Trusted by campanies like</h5>
+            <div class="heading-line"></div>
           </div>
         </div>
-        <div class="row text-center mt-5 ">
-          <div class="companies__logo-box col-lg-2 col-md-4 shadow-sm ">
-            <img class="img-fluid companies-logo1" src="img/campany-1.png" alt="">
+      </div>
+      <div class="container">
+        <div class="row mt-5 ">
+          <div class="col-lg-2 col-md-4">
+            <div class="companies__logo-box shadow-sm">
+              <img class="img-fluid companies-logo1" src="img/campany-1.png" alt="">
+            </div>
           </div>
-          <div class="companies__logo-box col-lg-2 col-md-4 shadow-sm">
-            <img class="img-fluid companies-logo2" src="img/campany-2.png" alt="">
+          <div class="col-lg-2 col-md-4">
+            <div class="companies__logo-box shadow-sm">
+              <img class="img-fluid companies-logo2" src="img/campany-2.png" alt="">
+            </div>
           </div>
-          <div class="companies__logo-box col-lg-2 col-md-4 shadow-sm">
-            <img class="img-fluid companies-logo3" src="img/campany-3.png" alt="">
+          <div class="col-lg-2 col-md-4">
+            <div class="companies__logo-box shadow-sm">
+              <img class="img-fluid companies-logo3" src="img/campany-3.png" alt="">
+            </div>
           </div>
-          <div class="companies__logo-box col-lg-2 col-md-4 shadow-sm">
-            <img class="img-fluid companies-logo4" src="img/campany-4.png" alt="">
+          <div class="col-lg-2 col-md-4">
+            <div class="companies__logo-box shadow-sm">
+              <img class="img-fluid companies-logo4" src="img/campany-4.png" alt="">
+            </div>
           </div>
-          <div class="companies__logo-box col-lg-2 col-md-4 shadow-sm">
-            <img class="img-fluid companies-logo5" src="img/campany-5.png" alt="">
+          <div class="col-lg-2 col-md-4">
+            <div class="companies__logo-box shadow-sm">
+              <img class="img-fluid companies-logo5" src="img/campany-5.png" alt="">
+            </div>
           </div>
-          <div class="companies__logo-box col-lg-2 col-md-4 shadow-sm">
-            <img class="img-fluid companies-logo6" src="img/campany-6.png" alt="">
+          <div class="col-lg-2 col-md-4">
+            <div class="companies__logo-box shadow-sm">
+              <img class="img-fluid companies-logo6" src="img/campany-6.png" alt="">
+            </div>
           </div>
         </div>
+      </div>
       </div>
 
     </section>
 
     <!-- SERVICES -->
 
-    <section class="section__services mt-5">
+    <section class="section__services">
       <div class="container">
-        <h1 class="text-center mt-5">Our Services  </h1>
+        <h1 class="text-center display-3 fw-bold">Our Services  </h1>
+        <div class="heading-line mb-1"></div>
 
          <!-- ROW 1 -->
-        <div class="row mb-5 row-1">
-          <div class="col-md-6 p-3">
-            <h4 class="services-text text-center p-2">
-              Our Services Range From Initial Design To Deployment Anywhere Anytime
-            </h4>
+         <div class="container mt-0">
+            <div class="row row-1">
+              <div class="col-md-6 p-4 border-right">
+                <h2 class="services-text text-center fw-bold text-capitalize">
+                  our services range from initial design to deployment anywhere anytime
+                </h2>
+              </div>
+              <div class="col-md-6 p-4">
+                <p class="lead">Lorem ipsum dolor sit amet consectetur architecto magni, dicta maxime laborum temporibus dolorem esse doloremque illo quas nisi enim molestias. Tempore ducimus molestiae in dolore enim.</p>
+              </div>
+            </div>
           </div>
-          <div class="col-md-6 p-3">
-            <p class="p-2 lead">Lorem ipsum dolor sit amet consectetur architecto magni, dicta maxime laborum temporibus dolorem esse doloremque illo quas nisi enim molestias. Tempore ducimus molestiae in dolore enim.</p>
-          </div>
-        </div>
          <!-- ROW 2 -->
         <div class="row row-2 align-items-center mt-5">
-          <div class="col">
+          <div class="col text-start">
             <i class="fa-solid fa-paper-plane"></i>
             <h4>Marketing</h4>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, impedit rem, doloremque autem quibusdam blanditiis harum alias hic accusantium maxime atque ratione magni repellat?</p>
@@ -146,15 +168,17 @@
               <img class="icon-white" src="node_modules/bootstrap-icons/icons/arrow-right-short.svg" width="30px" height="30px" alt=""></span></button>
             
           </div>
-          <div class="col d-flex justify-content-end">
-            <img src="img/service-1.png" alt="">
+          <div class="col text-end ">
+            <div class="d-sm-block">
+              <img class="img-fluid section__services__pic" src="img/service-1.png" alt="">
+            </div>
           </div>
         </div>
          <!-- ROW 3 -->
-        <div class="row row-3 align-items-center  mt-5">
+        <div class="row row-3 align-items-center mt-5">
 
-          <div class="col">
-            <img src="img/service-2.png" alt="">
+          <div class="col text-start">
+            <img class="img-fluid" src="img/service-2.png" alt="">
           </div>
 
           <div class="col">
@@ -176,8 +200,8 @@
               <img class="icon-white" src="node_modules/bootstrap-icons/icons/arrow-right-short.svg" width="30px" height="30px" alt=""></span></button>
             
           </div>
-          <div class="col d-flex justify-content-end">
-            <img src="img/service-3.png" alt="">
+          <div class="col text-end">
+            <img class="img-fluid" src="img/service-3.png" alt="">
           </div>
         </div>
         
@@ -190,8 +214,9 @@
     <section class="section__testemonails">
       <div class="container text-white text-center">
         <div class="text">
-        <h1 class="text-center">Testimonials</h1>
-        <p class="text-center">What our Clients are Saying</p>
+        <h1 class="display-3 fw-bold">Testimonials</h1>
+        <hr style="width: 100px; height: 3px;" class="mx-auto">
+        <p class="lead pt-1">What our Clients are Saying</p>
       </div>
 
       <div class="carousel-div">
@@ -353,7 +378,18 @@
     <footer style="height: 500rem;">
 
     </footer>
-   
+
+
+      <script src="/vendors//js/glightbox.min.js"></script>
+      <script type="text/javascript">
+        const lightbox = GLightbox({
+          'href': 'https://www.youtube.com/watch?v=Ga6RYejo6Hk',
+            'type': 'video',
+            'source': 'youtube', //vimeo, youtube or local
+            'width': 900,
+
+});
+      </script>
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>

@@ -4,8 +4,6 @@
     h1 {
         font-weight: 700;
     }
-
-    
     .row {
         h4 {
             font-weight: 700;
@@ -13,10 +11,6 @@
             @include textgradient;
         }
     }
-
-    
-    
-
     p{
         font-size: 1.1rem;
         line-height: 2rem;
@@ -31,5 +25,10 @@
             color: $primary;
             font-size: 2.5rem;
         }
+    }
+
+    &__pic {
+        max-width: 100%;
+        
     }
 }
