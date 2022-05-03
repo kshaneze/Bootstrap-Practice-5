@@ -1,0 +1,53 @@
+.section__getstarted {
+    background-color: $gray-200;
+    padding-bottom: 4rem;
+
+}
+
+.text-box {
+    padding: 2.6rem 4rem 4rem 4rem;
+    @include gradient;
+
+    p {
+        line-height: 2rem;
+    }
+
+    .nike {
+        margin-top: 1rem;
+        line-height: 1.8rem;
+
+        i {
+            font-size: 1.3rem;
+            margin-right: 0.3rem;
+        }
+    }
+    
+}
+
+.form-box {
+    background-color: white;
+    padding: 2.6rem 4rem 3rem 4rem;
+    height: 100%;
+
+    h3  {
+        @include textgradient;
+        margin: 1.6rem 0 3.2rem 0;
+    }
+    .block {
+        gap: 1.5rem;
+    }
+    input {
+        padding: 0.7rem 1rem;
+        font-size: 1.35rem;
+    }
+
+    textarea {
+        font-size: 1.35rem;
+    }
+
+    button {
+        width: 100%;
+        padding: 0.9rem 5rem;
+    }
+
+}
